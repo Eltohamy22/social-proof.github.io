@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;900&family=League+Spartan:wght@400;500;700&family=Outfit:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    background: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover  632px;
+    background-position: center  200px;
+}
+main{
+    width: 1440px;
+    margin-top: 118px;
+    margin-left: 165px;
+    background: url(images/bg-pattern-top-desktop.svg );
+    background-repeat: no-repeat;
+    background-size:  362px;
+   
+}
+.rate{
+    width: 1110px;
+    height: 245px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 56px;
+    width: 445px;
+    height: 145px;
+    color: #512051;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+p{
+font-size: 19px;
+width: 445px;
+height: 75px;
+color: #927B91;
+line-height: 25px;
+letter-spacing: -0.63px;
+font-weight: 500;
+margin-top: -20px;
+}
+.rating-review{
+    margin-top: 47px;
+    width: 540px;
+    height: 200px;
+}
+.box{
+    width: 445px;
+    height: 56px;
+    background: #F7F2F7;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px;
+   border-radius: 8px;
+}
+.image-container{
+margin-right: 50px;
+}
+.box-1{
+    margin-left: -47px;
+}
+.box-3{
+    margin-left: 77px;
+}
+.review{
+    margin-top: 100px;
+    width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.profile{
+    background: #512051;
+    width: 350px;
+    height: 234px;
+    display: flexbox;
+    border-radius: 8px;
+}
+.avatar{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.span-container{
+    width: 99px;
+    height: 36px;
+    display: grid;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.person{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+}
+.position{
+    color: #bebaba;
+    font-size: 11px;
+    margin-top: -10px;
+    color: #EE69A4;
+}
+.profile p{
+    width: 320px;
+    height: 88px;
+    color: #ffffff;
+    text-align: start;
+    margin-top: 40px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.person-details{
+    width: 136px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile-02{
+    margin-top: 16px;
+}
+.profile-03{
+    margin-top: 32px;
+}
